@@ -2,9 +2,10 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.6;
     margin: 0;
-    padding: 0;
+    padding: 77px 0px;
 }
 
+/*START HEADER*/
 header {
     background: #162156;
     padding: 10px 0;
@@ -20,12 +21,16 @@ header {
 .navbar-brand {
     color: #fff;
 }
+/*END HEADER*/
 
+/*START SEÇÃO 1*/
 #secao1 {
     padding-top: 80px;
     background: #DDA853;
 }
+/*END SEÇÃO 1*/
 
+/*START SEÇÃO 2*/
 #secao2 {
     background: #DDA853;
 }
@@ -68,11 +73,42 @@ header {
 #secao2 #pesquisa {
     text-align: center;
 }
+/*END SEÇÃO 2*/
 
+/*START SEÇÃO 3*/
 #secao3 {
     background: #DDA853;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    width: 100%;
+    border-radius: 12px;
+    height: 460px;
+    object-fit: cover;
+}
+
+.ator p {
+    background-color: #f6f6ff;
+    padding: 15px;
+    border-radius: 12px;
+}
+
+.ator {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    width: 99%;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+/*END SEÇÃO 3*/
+
+/*START SEÇÃO 4*/
 #secao4 {
     background: #DDA853;
 }
@@ -120,7 +156,9 @@ header {
     cursor: pointer;
     height: 45px;
 }
+/*END SEÇÃO 4*/
 
+/*START FOOTER*/
 footer {
     text-align: center;
     padding: 10px 0;
@@ -136,30 +174,4 @@ footer button {
     border: none;
     color: #e7e7e7;
 }
-
-a {
-    text-decoration: none;
-    color: inherit;
-}
-
-img {
-    width: 100%;
-    border-radius: 12px;
-    height: 460px;
-    object-fit: cover;
-}
-
-.ator p {
-    background-color: #f6f6ff;
-    padding: 15px;
-    border-radius: 12px;
-}
-
-.ator {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 30px;
-    width: 99%;
-    border-radius: 12px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-}
+/*END FOOTER*/
