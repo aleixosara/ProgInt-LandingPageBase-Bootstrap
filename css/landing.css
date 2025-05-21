@@ -3,12 +3,13 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 77px 0px;
+    overflow-x: hidden;
 }
 
 /*START HEADER*/
 header {
     background: #162156;
-    padding: 10px 0;
+    padding: 10px 0px;
     position: fixed;
     top: 0;
     width: 100%;
@@ -36,6 +37,7 @@ header .container-fluid {
 /*START SEÇÃO 1*/
 #secao1 {
     background: #2c2c34;
+    padding-top: 75px;
 }
 /*END SEÇÃO 1*/
 
@@ -89,33 +91,23 @@ header .container-fluid {
     background: #2c2c34;
 }
 
-a {
-    text-decoration: none;
-    color: inherit;
-}
-
 .ator img {
-    width: 100%;
-    border-radius: 12px;
     height: 460px;
     object-fit: cover;
-}
-
-.ator p {
-    background-color: #f6f6ff;
-    padding: 15px;
-    border-radius: 12px;
 }
 
 .ator {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 30px;
-    width: 99%;
+    gap: 20px;
     border-radius: 12px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     position: relative;
     z-index: 1;
+}
+
+.card {
+    max-width: 100%;
 }
 /*END SEÇÃO 3*/
 
@@ -129,7 +121,7 @@ a {
     width: 700px;
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 18px;
     margin-left: 28%;
 }
 
@@ -184,5 +176,10 @@ footer button {
     background-color: transparent;
     border: none;
     color: #e7e7e7;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
 /*END FOOTER*/
