@@ -78,7 +78,7 @@ header .container-fluid {
 
 #secao2 iframe {
     width: 40%;
-    height: 300px;
+    height: 400px;
 }
 
 #secao2 #pesquisa {
@@ -151,7 +151,7 @@ header .container-fluid {
     padding-left: 15px;
 }
 
-#secao4 button {
+#secao4 button[type="submit"] {
     background-color: #162156;
     border: none;
     border-radius: 10px;
@@ -159,6 +159,26 @@ header .container-fluid {
     cursor: pointer;
     height: 45px;
 }
+
+#secao4 button[type="button"] {
+    background-color: #E9A319;
+    border: none;
+    border-radius: 10px;
+    color: #f2f1f1;
+    cursor: pointer;
+    height: 45px;
+    width: 700px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#secao4 .btn-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding-right: 98px;
+}
+
 /*END SEÇÃO 4*/
 
 /*START FOOTER*/
